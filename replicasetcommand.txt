@@ -1,0 +1,10 @@
+rs.initiate(
+   {
+      _id: "rs0",
+      members: [
+         { _id: 0, host : "abc-0.abc.default.svc.cluster.local:27017" },
+         { _id: 1, host : "abc-1.abc.default.svc.cluster.local:27017" },
+         { _id: 2, host : "abc-2.abc.default.svc.cluster.local:27017" }
+      ]
+   }
+)
